@@ -8,6 +8,18 @@
   height: 100%;
 }
 
+#portrait{
+  width: 70%;
+  border-radius: 40%;
+  position: relative;
+  margin-top: 5vw;
+}
+
 #mobile-header{
   width: 100%;
+}
+
+#content{
+  width: 70%;
+  float: right;
 }
