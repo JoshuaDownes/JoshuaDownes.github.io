@@ -1,0 +1,9 @@
+.full{
+  padding: 0;
+}
+
+.side-panel{
+  float: left;
+  width: 25%;
+  height: 100%;
+}
