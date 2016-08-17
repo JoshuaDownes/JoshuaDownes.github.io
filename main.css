@@ -1,9 +1,13 @@
-.full{
+#intro{
   padding: 0;
 }
 
-.side-panel{
+#side-panel{
   float: left;
   width: 25%;
   height: 100%;
+}
+
+#mobile-header{
+  width: 100%;
 }
