@@ -19,6 +19,16 @@
   margin-top: 5vw;
 }
 
+#icons{
+  text-align: center;
+  display: inline;
+}
+
+.fa{
+  font-size: 200%;
+  padding: 1vw;
+}
+
 #mobile-header{
   width: 100%;
 }
@@ -30,7 +40,13 @@
 }
 
 #about{
-  width: 80%;
+  margin-top: 3vh;
+  width: 90%;
   margin: 20 auto;
   position: center;
+}
+
+.mdl-card__supporting-text{
+  font-size: 1.3em;
+  line-height: 1.6em;
 }
