@@ -54,6 +54,11 @@
   margin-top: 3vh;
   width: 90%;
   position: center;
+  min-height: 0;
+}
+
+.title{
+  font-size: 120%;
 }
 
 .pic{
