@@ -21,6 +21,7 @@
   margin: 10%;
   font-weight: 300; 
   line-height: 120%;
+  font-size: 2vw;
 }
 
 #portrait{
@@ -36,7 +37,7 @@
 }
 
 .fa{
-  font-size: 250%;
+  font-size: 3vw;
   padding: 1vw;
 }
 
@@ -62,6 +63,5 @@
 }
 
 .pic{
-  width: 25%;
-  margin: 1vh;
+  width: 100%;
 }
