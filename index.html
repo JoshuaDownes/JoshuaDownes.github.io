@@ -24,7 +24,7 @@
   <div id="side-panel" class="mdl-color--primary-dark mdl-cell--hide-phone mdl-shadow--3dp">
     <img id="portrait" class="mdl-shadow--3dp" src="res/portrait.jpg"></img>
     <div id="name" class="mdl-typography--display-1 mdl-color-text--white">Joshua Downes</div>
-    <div id="intro" class="mdl-typography--title mdl-color-text--white">Computer Science and Math Student at Stony Brook</div>
+    <div id="intro" class="mdl-typography--title mdl-color-text--white">Computer Science and Mathematics Undergraduate at Stony Brook University</div>
     <div id="icons">
       <a href="res/resume.pdf"><i class="fa fa-file-text-o mdl-color-text--white"></i></a> 
       <a href="https://www.github.com/joshuadownes"><i class="fa fa-github mdl-color-text--white"></i></a> 
@@ -38,11 +38,11 @@
 </div>
 <div id="content" >
   <div id="about" class="mdl-card mdl-shadow--2dp">
-    <div id="f" class="mdl-card__title mdl-color--primary mdl-color-text--white title">
+    <div class="mdl-card__title mdl-color--primary mdl-color-text--white title">
       About Me
     </div>
-    <div class="mdl-card__supporting-text">
-      <p>
+    <div class="mdl-card__supporting-text mdl-grid">
+      <p class="mdl-cell mdl-cell--12-col">
         Interested in Software Engineering, Data Science, Operating Systems, and much more. I love tackling complex problems and coming up with simple solutions. <b>Sorry for the appearance, this website is still under a bit of construction.</b>
       </p>
     </div>
@@ -53,63 +53,71 @@
       Work Experience
     </div>
     <div class="mdl-card__supporting-text work_entry mdl-grid">
-      <div class="mdl-cell mdl-cell--4-col">
-        <img src="res/morganstanley.png" class="pic">
-      </div>
       <div class="mdl-cell mdl-cell--8-col">
         <p>During Summer 2016, I worked as a Technology Summer Analyst at Morgan Stanley with the C++ Tooling &amp; Performance Analysis Team. My project involved using a containerization platform &mdash; similar to Docker &mdash; to parallelize suites of unit tests on multiple machines. The project resulted in a 2x speedup of testing time on our team's current group of unit tests, but more importantly it majorly improved the way our test-time scaled &mdash; the limiting factor for testing time became the length of our longest test suite. Next I worked with the current owners of an in-house testing framework to integrate the project and apply it firmwide. Primarily used Python, C++.</p>
       </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img src="res/morganstanley.png" class="pic">
+      </div>
     </div>
     <div class="mdl-card__supporting-text work_entry mdl-grid">
+      <div class="mdl-cell mdl-cell--4-col">
+        <img src="res/eduware.png" class="pic">
+      </div>
       <div class="mdl-cell mdl-cell--8-col">
         <p>During the 2015-2016 school year, I worked as a Web Developer at Eduware. The main project I worked on involved a major code refactor to change class-dates from general semesters, i.e. fall, spring, summer semester, to specific start and end dates. This involved making changes to our MySQL DB and many parts of our website dependant on this feature. I also worked extensively on developing teaching-resource tools for the site, with a focus on tools for students to edit classes and take online tests. Primarily used C#, Javascript / JQuery, LINQ (SQL Queries), ASP.NET Web Forms.</p>
       </div>
-      <div class="mdl-cell mdl-cell--4-col">
-        <img src="res/eduware.png" class="pic">
-      </div>
     </div>
     <div class="mdl-card__supporting-text work_entry mdl-grid">
-      <div class="mdl-cell mdl-cell--4-col">
-        <img src="res/generalelectric.png" class="pic">
-      </div>
       <div class="mdl-cell mdl-cell--8-col">
         <p>During Summer 2015, I worked at as a Software Engineering Intern at General Electric Transportation. I worked with the Heavy-Haul Locomotive Software Team, primarily on locomotive software simulation. My project involved developing &amp; improving a pre-existing tool to remotely load software into the simulation lab for testing. This allowed developers who wanted to run testing to load &amp; begin running the tests from their desks, rather than having to physically walk to the lab. I also helped develop tools for testing automation to simulate a locomotive operator. Primarily used PHP, C++, Bash Scripting, Python.</p>
       </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <img src="res/generalelectric.png" class="pic">
+      </div>
     </div>
     <div class="mdl-card__supporting-text work_entry mdl-grid">
+      <div class="mdl-cell mdl-cell--4-col">
+        <img src="res/stonybrook.png" class="pic">
+      </div>
       <div class="mdl-cell mdl-cell--8-col">
         <p>Over the 2014-2015 school year, I worked at Stony Brook University.
         For the first half of the school year, I worked as a tutor for PHY 131 &mdash; Introductory Physics. I covered topics including mechanics, wave motion, and kinetic theory. Generally students would come to me with non-homework problems from their textbook, and I would help walk them through how it is done using socratic probing and other teaching methods. 
         Next I worked as a Lab TA for CSE 114 &mdash; Introduction to Java. The lab covered fundamental object oriented concepts in Java. Meeting twice a week, students would be assigned a lab to demonstrate understanding of topics covered. My role was to help students understand the lab, and more importantly how the principles would scale up.</p>
       </div>
-      <div class="mdl-cell mdl-cell--4-col">
-        <img src="res/stonybrook.png" class="pic">
-      </div>
     </div>
   </div>
 
   <div id="projects" class="mdl-card mdl-shadow--2dp">
-    <div class="mdl-card__title">
+    <div class="mdl-card__title mdl-color--primary mdl-color-text--white title">
       Projects
     </div>
     <div class="mdl-card__supporting-text mdl-grid">
-      <div class="mdl-cell mdl-cell--1-col"><img src="res/stonybrook.png" ></div>
-      <p class="mdl-cell mdl-cell-5-col"> Testing test </p>
+      <div class="mdl-cell mdl-cell--2-col">
+        <img src="res/tux.png" class="pic">
+      </div>
+      <div class="mdl-cell mdl-cell-8-col">
+        <p> <b>Xv6 Optimizations</b> For the Operating Systems courses I took in Spring 2016, our final project involved adding features to Xv6, a unix-like preemptive operating system. These features included copy-on-write forking, a lottery process-scheduling policy, and file system optimizations.</p>
+      </div>
 
-    </div>
-    <div class="mdl-card__supporting-text">
-      Some other stuff I've done
-    </div>
-    <div class="mdl-card__supporting-text">
-      Some other stuff I've done
-    </div>
-    <div class="mdl-card__supporting-text">
-      Some other stuff I've done
+      <div class="mdl-cell mdl-cell--2-col">
+        <img src="res/lstm.png" class="pic">
+      </div>
+      <div class="mdl-cell mdl-cell-8-col">
+        <p> <b>LSTM Bi-Gram Predictor</b> Built model to write English sentences a bigram at a time. Using the Text8 Dataset, first mapped bigrams to a vector through a word2vec trained embedding, used the mapped-bigrams to train an LSTM network used for prediction.</p>
+      </div>
+
+      <div class="mdl-cell mdl-cell--2-col">
+        <img src="res/pokemon.png" class="pic">
+      </div>
+      <div class="mdl-cell mdl-cell-8-col">
+        <p> <b>Pokememe Go App</b> Android Mobile App which queries imgur API for funny Pokemon Go pictures. Over 1,000 downloads total on Google Play store.</p>
+      </div>
     </div>
   </div>
 
   <div id="skills" class="mdl-card mdl-shadow--2dp">
-    <div class="mdl-card__title">
+    <div class="mdl-card__title mdl-color--primary mdl-color-text--white title">
       Skills
     </div>
     <div class="mdl-card__supporting-text">
